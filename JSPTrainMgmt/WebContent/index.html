@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<style>
+input{
+	border-style: none;
+	font-family: sans-serif;
+	background-color: #9fd356;
+	color: #342E37;
+	border-radius: 20px;
+	padding: 10px;
+}
+body{
+ font-family: sans-serif; font-weight: bold; background-color: #3c91e6;
+}
+h1{
+ font-weight: bold; background-color: #3c91e6;color: #FAFFFD; font-size:50px;
+}
+h3{
+ font-weight: bold; background-color: #3c91e6;color: #FAFFFD; font-size:20px;
+}
+</style>
+<head>
+<meta charset="ISO-8859-1">
+<title>Train Login</title>
+</head>
+<body>
+	<center>
+	<h3>Welcome to Train Booking Service</h3>
+	<h1>Login</h1>
+	<form action="login" method="post">
+		<input placeholder="Username" type="text" name="uName" required="required"><br><br>
+		&nbsp;<input placeholder="Password" type="password" name="pWord" required="required"><br><br>
+		&nbsp;<input type="radio" name="loginType" value="normal" checked>User 
+					<input type="radio" name="loginType" value="admin">Admin<br><br>
+		<input type="submit" value="Login" name="login"> or <a href="register.html">Register Here</a>
+	</form>
+	</center>
+</body>
+</html>
